@@ -1,0 +1,84 @@
+body {
+	background: #c9ffbf;  /* fallback for old browsers */      background: -webkit-linear-gradient(to right, rgb(201, 255, 191), rgb(255, 175, 189));  /* Chrome 10-25, Safari 5.1-6 */      background: linear-gradient(to right, rgb(201, 255, 191), rgb(255, 175, 189)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */      
+}
+#questionnaire::before{
+    content:"";
+    background:url(image/坤坤.jpg) center center no-repeat;
+    opacity:0.5;
+    z-index:-1;
+    background-size:960px 1440px;
+    width:1100px; 
+    height:1300px;
+    position:absolute;
+    top: 8px;
+    left:31.5%;
+    margin-left: -265px;
+}
+#questionnaire {
+	padding:15px;
+	margin: auto;
+	width: 1100px;
+	text-align: center;
+	box-shadow: 10px 10px 15px black;
+    background-size: cover;
+}
+#questionList{
+    color: rgb(252, 8, 8);
+    font-weight: bold;
+}
+#info label{
+    color: rgb(244, 9, 9);
+    font-weight: bold;
+}
+.title{
+    border-bottom: 3px solid rgb(30, 234, 249);
+}
+h1 {
+	color: rgb(252, 43, 11);
+}
+form {
+	text-align: left;
+	width: 80%;
+	margin: auto;
+}
+li {
+	margin: 10px 10px;
+    list-style-position: inside;
+}
+input {
+	margin: 10px;
+}
+input[type="text"],input[type="tel"] {
+	width: 130px;
+	height: 20px;
+	font-size: 16px;
+	border: 0px;
+	border-bottom: 1px solid;
+	outline: none;
+}
+#btn {
+	text-align: center;
+}
+button {
+	width: 120px;
+	height: 40px;
+	background-color: rgb(215, 63, 154);
+	border: 0px;
+	color: white;
+	margin: 10px;
+	font-size: 18px;
+	font-weight: bold;
+}
+button:hover {
+	background-color: #7cf784;
+}
+.warning{
+    color: red;
+    display: none;
+    font-size: 13px;
+}
+.info{
+    color: rgb(142, 208, 242);
+    font-weight: bold;
+    margin: 0 auto;
+}

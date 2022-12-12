@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>你是真IKUN吗！？</title>
+    <link rel="stylesheet" href="maintext.css">
+    <script src="time.js" type="text/javascript" charset="utf-8"></script>
+    <script src="text.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+    <div id="questionnaire">
+        <div id="questionList">
+            <div class="title">
+                <h1>蔡徐坤真爱粉大考验！！！</h1>
+                <div id="timer" style="color:rgb(222, 40, 165);  font-size: larger; margin-right: 70%">准备开始倒计时！！！</div>
+            </div>
+            <form method="get" onsubmit="check()" id="quesitons">
+                <ol>
+                    <h4>一、单选（40分）</h4>
+                    <li>蔡徐坤最出名的梗是什么？（10分）</li>
+                    <label>
+                        <input type="radio" name="q1" value="1_1" required="required">只因你太美
+                    </label>
+                    <label>
+                        <input type="radio" name="q1" value="1_2" required="required">踢足球
+                    </label> <br>
+                    <label>
+                        <input type="radio" name="q1" value="1_3" required="required">EIEI
+                    </label>
+                    <label>
+                        <input type="radio" name="q1" value="1_4" required="required">参加跑男
+                    </label>
+                    <li>坤坤的身高（10分） </li>
+                    <label>
+                        <input type="radio" name="q2" value="2_1" required="required">160-170
+                    </label>
+                    <label>
+                        <input type="radio" name="q2" value="2_2" required="required">170-180
+                    </label><br>
+                    <label>
+                        <input type="radio" name="q2" value="2_3" required="required">180-190
+                    </label>
+                    <label>
+                        <input type="radio" name="q2" value="2_4" required="required">190+
+                    </label>
+                    <li>坤坤练习时长是多久？（10分）</li>
+                    <label>
+                        <input type="radio" name="q3" value="3_1" required="required">两年半
+                    </label>
+                    <label>
+                        <input type="radio" name="q3" value="3_2" required="required">三年
+                    </label> <br>
+                    <label>
+                        <input type="radio" name="q3" value="3_3" required="required">三年半
+                    </label>
+                    <label>
+                        <input type="radio" name="q3" value="3_4" required="required">四年
+                    </label>
+                    <li>坤坤最出名的发型是哪一款？（10分）</li>
+                    <label>
+                        <input type="radio" name="q6" value="6_1" required="required">三七分
+                    </label>
+                    <label>
+                        <input type="radio" name="q6" value="6_2" required="required">莫西干
+                    </label> <br>
+                    <label>
+                        <input type="radio" name="q6" value="6_3" required="required">锡纸烫
+                    </label>
+                    <label>
+                        <input type="radio" name="q6" value="6_4" required="required">中分
+                    </label>
+                    <li>坤坤的出生年份？（10分）</li>
+                    <label>
+                        <input type="radio" name="q7" value="7_1" required="required">1996
+                    </label>
+                    <label>
+                        <input type="radio" name="q7" value="7_2" required="required">1997
+                    </label> <br>
+                    <label>
+                        <input type="radio" name="q7" value="7_3" required="required">1998
+                    </label>
+                    <label>
+                        <input type="radio" name="q7" value="7_4" required="required">1999
+                    </label>
+                    <li>坤坤的星座？（10分）</li>
+                    <label>
+                        <input type="radio" name="q8" value="8_1" required="required">金牛
+                    </label>
+                    <label>
+                        <input type="radio" name="q8" value="8_2" required="required">双子
+                    </label> <br>
+                    <label>
+                        <input type="radio" name="q8" value="8_3" required="required">射手
+                    </label>
+                    <label>
+                        <input type="radio" name="q8" value="8_4" required="required">狮子
+                    </label>
+                </ol>
+                <ol>
+                    <h4>二、多选（40分）</h4>
+                    <li>坤坤出名的口头禅包含什么？（20分）</li>
+                    <label>
+                        <input type="checkbox" name="q4" value="4_1">唱
+                    </label> <br>
+                    <label>
+                        <input type="checkbox" name="q4" value="4_2">跳
+                    </label> <br>
+                    <label>
+                        <input type="checkbox" name="q4" value="4_3">Rap
+                    </label> <br>
+                    <label>
+                        <input type="checkbox" name="q4" value="4_4">游泳
+                    </label> <br>
+                    
+                    <li>跟坤坤粉丝有关的术语有什么？（20分）</li>
+                    <label>
+                        <input type="checkbox" name="q5" value="5_1">小黑子露出鸡脚了吧
+                    </label><br>
+                    <label>
+                        <input type="checkbox" name="q5" value="5_2">食不食油饼
+                    </label><br>
+                    <label>
+                        <input type="checkbox" name="q5" value="5_3">香精煎鱼食不食
+                    </label><br>
+                    <label>
+                        <input type="checkbox" name="q5" value="5_4">哎哟，你干嘛~
+                    </label><br>
+                    <label>
+                        <input type="checkbox" name="q5" value="5_5">666
+                    </label><br>
+                </ol>
+                <div class="info">
+                    <p>
+                        Name：
+                        <input type="text" id="name" placeholder="蔡徐坤" required>
+                        <span id="warning1" class="warning">输入的姓名不合法</span>
+                    </p>
+                    <p>
+                        Phone：
+                        <input type="text" id="phone" placeholder="18888888888" required>
+                        <span id="warning2" class="warning">输入的号码不合法</span>
+                    </p>
+                    <p>
+                        Email：
+                        <input type="email" id="email" placeholder="cxk@qq.com" required>
+                        <span id="warning3" class="warning">输入的邮箱不合法</span>
+                    </p>
+                </div>
+                <div id="btn">
+                    <button type="submit" id="submit" onclick="getResult()">提交问卷</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
